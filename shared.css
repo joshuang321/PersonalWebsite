@@ -19,3 +19,32 @@
     padding: 1%;
     margin-bottom: 2%;
 }
+
+.div-education {
+    display:flex;
+    justify-content:space-between;
+    margin-top:5%;
+    height:1.4em;
+}
+
+.div-education > .p-education {
+    font-weight:bold;
+}
+
+.div-education > .p-period {
+    text-align:end;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+.sub-header {
+    text-align:center;
+    color:rgb(130, 171, 173);
+    margin-top:4%;
+}
