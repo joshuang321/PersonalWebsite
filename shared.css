@@ -1,7 +1,13 @@
+.body-background {
+    background-image: url('/img/background-pic.jpg');
+    background-size: contain;
+}
+
 .header {
     text-align:center;
     color:cadetblue;
     margin-top:4%;
+    font-weight: bold;
 }
 
 .div-flex-wrapper {
@@ -10,12 +16,12 @@
     justify-content:space-evenly;
     width:100%;
     height:100%;
-    margin-top:2%;
+    margin-top:1.5%;
 }
 
 .div-flex-container {
     width:26%;
-    background-color: antiquewhite;
+    background-color: rgb(253, 232, 204);
     padding: 1%;
     margin-bottom: 2%;
 }
@@ -41,10 +47,4 @@
   'wght' 700,
   'GRAD' 200,
   'opsz' 48
-}
-
-.sub-header {
-    text-align:center;
-    color:rgb(130, 171, 173);
-    margin-top:4%;
 }
